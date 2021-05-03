@@ -1,0 +1,95 @@
+
+.NavLink{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+
+.navbar{
+  /* background-image: linear-gradient(120deg, rgb(10, 116, 238) , rgb(0, 255, 255)); */
+    margin-top: 1rem;
+    height: 5rem;
+    width: 100%;
+    text-align: start;
+    padding-bottom: 2rem;
+  }
+
+ 
+  .search{
+      float:right;
+      margin-top: 0.7rem;
+       margin-right: 15rem; 
+      border: 0.1rem solid #00a8ff;
+    height: 2rem;
+    border-radius: 0.3rem;
+    width:10rem;
+  }
+
+  .input{
+    float:right;
+    margin-top: 0.7rem;
+     margin-right: 15rem; 
+    border: 0.1rem solid #00a8ff;
+  height: 3rem;
+  border-radius: 0.3rem;
+  width:10rem;
+  }
+
+  .button{
+      float: left;
+    /* display: ; */
+    /* background-color: black; */
+    /* background-image: linear-gradient(120deg, rgb(10, 116, 238) , rgb(0, 255, 255)); */
+    color: white;
+    text-align: center;
+  width:8rem;
+  /* padding: 1rem 1rem 1rem 1rem; */
+    text-decoration: none;
+    height: 5rem;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 1;
+  transition: opacity .15s ease-in;
+  margin-top: 0.7rem;
+  }
+  
+  .button:hover:not(.active) {
+    /* background-color:blue; */
+    opacity: .5;
+    transition: opacity .15s ease-in;
+
+  }
+
+  .h2{
+      color:white;
+  }
+  .box{
+      float:right;
+      margin-right: 1rem;
+      align-content: center;
+      align-items: center;
+      margin-top:-0.9rem;
+  }
+
+  .Icon{
+    float:right;
+    margin-right: 1rem;
+    margin-top:0.6rem;
+  }
+  .dropdown{
+    display: flex;
+    flex-direction: column;
+    float:right;
+    width:5rem;
+    margin-top: 1rem;
+  }
+  .menu{
+    float:right;
+    margin-right: 1rem;
+    margin-top:0.6rem;
+  }
