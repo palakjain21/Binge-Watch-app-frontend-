@@ -1,0 +1,53 @@
+.cardtemplate{
+  /* display: inline-block; */
+  float: left;
+      border-right: 0.5rem;
+      border-width:0.25rem ;
+      border-style: solid ;
+      box-shadow: 4px 4px 8px 0px rgba(29, 28, 28, 0.2);
+      -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    /* background-color: teal; */
+    width:18rem;
+    height:20rem;
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+    padding-left: 1rem;
+    margin: 0.2rem;
+
+  }
+  .cardtemplate:hover,
+  .cardtemplate:focus{
+    transform: scale(1.05);
+  }
+
+  .cardtemplate:active{
+    transform: scale(.90);
+}
+.image{
+  width:5rem;
+  height:5rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+  /* align-items: center; */
+}
+.elements{
+ 
+    margin-top: 8rem;
+    float: left;
+    margin-left: 2rem;
+}
+.playicon{
+  margin-top: 9rem;
+  margin-left:0.5rem;
+  float: left;
+}
+
+.more{
+  margin-top: 9rem;
+  margin-right:1.3rem;
+  float: right;
+}
