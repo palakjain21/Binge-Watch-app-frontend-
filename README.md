@@ -71,17 +71,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 Features till now:
-  Login page
-  Signup page
-  homepage
-  Logout feature
+  Login page,
+  Signup page,
+  homepage,
+  Logout feature.
   
  Features to be added:
- Fully responsive website
-  firebase authentication
-  Search feature
-  Fetching the images through api
-  Sharing feature
-  Rating feature
-  Profile account
-  settings
+ Fully responsive website,
+  firebase authentication,
+  Search feature,
+  Fetching the images through API,
+  Sharing feature,
+  Rating feature,
+  Profile account,
+  settings.
