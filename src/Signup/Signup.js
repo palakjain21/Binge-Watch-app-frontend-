@@ -22,7 +22,7 @@ const Signup =() =>{
 
   return (
     <div className= {styles.Container}>
-      <div className={styles.logo}>
+     <div className={styles.logo}>
        <img src={Logo}  width="150px" height="150px" border-radius="50%" /> 
        </div>
         <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
@@ -90,7 +90,7 @@ const Signup =() =>{
 
           <div className={styles.login}>
             Already have a Binge-Watch account?
-            <button type="submit" style={{width:"24rem", backgroundColor:"#e4e4de"}}className={styles.submitbutton} onClick={() => history.push('/Login')}>
+            <button type="submit" style={{ backgroundColor:"#e4e4de"}}className={styles.loginbutton} onClick={() => history.push('/Login')}>
               <span>Login</span>
             </button>
           </div>

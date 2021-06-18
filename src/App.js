@@ -10,6 +10,7 @@ import Kids from './Kids/Kids';
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,7 @@ function App() {
              <Route path="/Home" component={Home}/>
              <Route path="/Movies" component={Movies}/>
              <Route path="/Series" component={Series}/>
-             <Route path="/Kids" component={Kids}/>
+             <Route path="/Kids" component={Kids}/>           
           </Switch>
       </BrowserRouter>
       
