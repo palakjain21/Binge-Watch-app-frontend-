@@ -68,8 +68,8 @@ const history = useHistory();
 
           <div className={styles.signup}>
             New to Binge-Watch?
-            <button type="submit" style={{width:"24.2rem", backgroundColor:"#e4e4de"}}className={styles.submitbutton}   onClick={() => history.push('/Signup')} >
-              <span>Create your account</span>           
+            <button type="submit" style={{ backgroundColor:"#e4e4de"}}className={styles.registerbutton}   onClick={() => history.push('/Signup')} >
+              <span className="register">Create your account</span>           
             </button>
           </div>
         </form>
