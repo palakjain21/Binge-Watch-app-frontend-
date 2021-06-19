@@ -23,7 +23,7 @@ const Signup =() =>{
   return (
     <div className= {styles.Container}>
      <div className={styles.logo}>
-       <img src={Logo}  width="150px" height="150px" border-radius="50%" /> 
+       <img  className ={styles.logo} src={Logo} alt={'logo'}  width="130px" height="130px" /> 
        </div>
         <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
           <h2> Sign Up</h2>

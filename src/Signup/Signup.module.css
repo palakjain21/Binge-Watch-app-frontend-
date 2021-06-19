@@ -11,8 +11,8 @@
     align-items: center;
     border-radius: 25px;
 border: 1px solid black;
-margin-top: 3rem;
-margin-bottom: 3rem;
+margin-top: 0.6rem;
+margin-bottom: 0.6rem;
   }
   .entry {
     width: 80%;
@@ -21,13 +21,13 @@ margin-bottom: 3rem;
     margin-bottom: 1rem;
   }
   .label {
-    font-size: 1.2rem;
+    font-size: 1rem;
     align-self: flex-start;
   }
   .input {
     width: 100%;
     border: 0.1rem solid #00a8ff;
-    height: 2rem;
+    height: 1.5rem;
     border-radius: 0.3rem;
     margin-top: 0.2rem;
     margin-bottom: 0.4rem;
@@ -50,8 +50,8 @@ margin-bottom: 3rem;
      width: 83%; 
     cursor: pointer;
     height: 2.5rem;
-    margin-bottom: 0.8rem;
-    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     font-size: 1.2rem;
     background-color: #00a8ff;
     border-radius: 0.4rem;
@@ -63,8 +63,8 @@ margin-bottom: 3rem;
      width: 83%; 
     cursor: pointer;
     height: 2.5rem;
-    margin-bottom: 0.8rem;
-    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
     font-size: 1.2rem;
     background-color: #00a8ff;
     border-radius: 0.4rem;
@@ -72,23 +72,17 @@ margin-bottom: 3rem;
     margin-left: 10px;
   }
   .login{
-    margin-top: 1.5rem ;
+    margin-top: 0.8rem ;
     font-size: small;
     align-content: center;
     color: rgb(95, 95, 92);
 }
-
-/* .logo{
-  float:left;
-  margin-top: -2.5rem;
-  margin-left: 0.5rem;
-  /* border-radius: 50%; */
  
 .logo{
   align-items: center;
-   margin-top: 2.5rem;
+   margin-top: 0.2rem;
    margin-left: 0.5rem;
-    /* border-radius: 50%;  */
+    border-radius: 50%; 
  }
 .img{
   border-radius: 50%;

@@ -5,6 +5,7 @@ import SearchBox from './Searchbox';
 import { BiUserCircle } from "react-icons/bi";
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import Logo from '../Binge-Watch.png';
 
 
 
@@ -24,9 +25,10 @@ const Profile = ({ option, closeOption }) => {
                 {/* < BiUserCircle fill="white" size="4rem" onClick={() => closeOption(null)} /> */}
 
                 <div className={styles.dropdown}>
-                 <button><span>Account</span></button> 
-                 <button><span>Settings</span></button> 
-                 <button onClick={() => history.push('/Login')}>
+                 <button className={styles.fill} style={{margin:0}}
+                 ><span>Account</span></button> 
+                 <button  className={styles.fill}><span>Settings</span></button> 
+                 <button   className={styles.fill} onClick={() => history.push('/Login')}>
                    <span>Logout</span>
                   </button>
                 </div>
@@ -46,9 +48,12 @@ const Navbar = () => {
       ) : null}
      
         <div className={styles.navbar}>
+          <div className={styles.logobutton}>
+          <img className={styles.logo} src={Logo} alt={'logo'} width="100px" height="100px" /> 
+          </div>
        
             <div className={styles.button}>
-          
+            
             <NavLink to='/home' activeStyle={{fontWeight: "bold",color: "white"}}>
             <h2>HOME</h2>  
             </NavLink>
