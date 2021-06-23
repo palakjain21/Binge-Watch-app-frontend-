@@ -8,7 +8,7 @@
   homepage,
   Logout feature.
   
- ###`Features to be added:`
+ ### `Features to be added:`
  Fully responsive website,
   firebase authentication,
   Search feature,
